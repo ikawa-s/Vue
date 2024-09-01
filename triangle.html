@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Vue.js 研修</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+</head>
+<body>
+    <header><a href="/">目次へ</a></header>
+    <div id="app">
+        <div>底辺：<input type="text" v-model="base"> cm</div>
+        <div>高さ：<input type="text" v-model="height"> cm</div>
+        <div>底辺：{{ area }} 平方cm</div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

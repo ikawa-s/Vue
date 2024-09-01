@@ -1,0 +1,21 @@
+header {
+    margin-bottom: 20px;
+}
+
+/* 表全体のスタイル */
+table {
+    width: 100%;
+    border-collapse: collapse; /* ボーダーが重なるのを防ぐ */
+}
+
+/* 表のセルとヘッダーのスタイル */
+th, td {
+    border: 1px solid gray; /* グレーの線で囲む */
+    padding: 8px; /* セル内の余白 */
+    text-align: left; /* テキストの左揃え */
+}
+
+/* ヘッダーのスタイル */
+th {
+    background-color: #f2f2f2; /* ヘッダーの背景色 */
+}
